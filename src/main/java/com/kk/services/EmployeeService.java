@@ -1,4 +1,4 @@
-package com.kk.services;
+package com.DEVOPS-STAR.services;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -22,8 +22,8 @@ public class EmployeeService {
                         throws JSONException {
 
                 JSONObject js = new JSONObject();
-                js.put("Name", "KK FUNDA");
-                js.put("Calling Name", "KK FUNDA");
+                js.put("Name", "DEVOPS-STAR FUNDA");
+                js.put("Calling Name", "DEVOPS-STAR FUNDA");
                 js.put("DOB", "08-Nov-2011");
                 js.put("Hobbies", "Reading Technical Blogs,Teaching, Helping to Poor People..");
                 js.put("Places he like", "His native place");
@@ -31,4 +31,3 @@ public class EmployeeService {
                 return js.toString();
 }
 }
-
