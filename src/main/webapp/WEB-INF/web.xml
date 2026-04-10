@@ -3,15 +3,15 @@
   <display-name>maven-web-application</display-name>
   <context-param>
     <param-name>contextConfigLocation</param-name>
-    <param-value>/WEB-INF/kk-servlet.xml</param-value>
+    <param-value>/WEB-INF/DEVOPS-STAR-servlet.xml</param-value>
   </context-param>
   <servlet>
-    <servlet-name>kk</servlet-name>
+    <servlet-name>DEVOPS-STAR</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
     <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet-mapping>
-    <servlet-name>kk</servlet-name>
+    <servlet-name>DEVOPS-STAR</servlet-name>
     <url-pattern>/services/*</url-pattern>
   </servlet-mapping>
   <listener>
